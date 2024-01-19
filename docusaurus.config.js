@@ -9,7 +9,8 @@ import { themes as prismThemes } from "prism-react-renderer";
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Ali Williams",
-  tagline: "Thank you for visiting!",
+  tagline:
+    "Thank you for wanting to learn more about me and my research! I hope we get the chance to collaborate soon",
   favicon: "img/disco.jpg",
 
   // Set the production url of your site here
@@ -20,8 +21,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "awizzie", // Usually your GitHub org/user name.
+  projectName: "Ali-Williams", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -66,7 +67,7 @@ const config = {
       // Replace with your project's social card
       image: "img/disco.jpg",
       navbar: {
-        title: "Menu",
+        title: "Home",
         logo: {
           alt: "Logo",
           src: "img/disco.jpg",
@@ -76,9 +77,14 @@ const config = {
             type: "docSidebar",
             sidebarId: "tutorialSidebar",
             position: "left",
-            label: "About Me",
+            label: "My Research",
           },
-          { to: "/My Work", label: "Additional Resources", position: "left" },
+          {
+            to: "/WIP",
+            label: "Work in Progress",
+            position: "left",
+          },
+
           {
             href: "https://github.com/facebook/docusaurus",
             label: "GitHub",

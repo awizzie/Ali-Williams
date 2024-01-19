@@ -1,8 +1,8 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 ---
 
-# Create a Document
+# Project 1
 
 Documents are **groups of pages** connected through:
 
