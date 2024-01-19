@@ -7,6 +7,7 @@ title: Contact Me
 ### Email
 ### LinkedIn
 
+![Image](/src/pages/github-mark-white.png)
 
 ### Google Scholar
 
